@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imtpc3NhIiwiaWQiOiI1ZmRmNzBkMTBlOGI0NjEzMGM3OTk0M2EiLCJpYXQiOjE2MDg1NTA1NDF9.wb4zb1zC-RXg_AJUuPXqAWcD6f1LNSCLYst9aNqL_h0
+
+{
+    "title": "testi4",
+    "author": "random1",
+    "url": "www.google.fi",
+    "likes": 2,
+    "userId": "5fdf70d10e8b46130c79943a"
+}

@@ -1,0 +1,51 @@
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.success {
+  color: green;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.container{
+  background-color: rgb(235, 235, 235);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2%;
+  padding: 1%;
+  
+}
+.navFont{
+  font-size: xx-large;
+  color: white;
+}
+.navText {
+  font-weight: bold;
+  margin: 1%;
+}
+Button {
+  margin: 1%;
+}
+
+ul {
+  padding: 1%;
+}
+Form {
+  width: fit-content;
+  height: fit-content;
+}
+h1, h2, h3, h4, a, p {
+  margin: 1%;
+}
