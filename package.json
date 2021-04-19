@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "eslint": "eslint ./src",
     "dev": "cross-env NODE_ENV=test nodemon index.js",
     "start": "cross-env NODE_ENV=production node index.js",
     "build": "rm -rf build && react-scripts build",
