@@ -9,7 +9,7 @@
     "start": "cross-env NODE_ENV=production node index.js",
     "build": "rm -rf build && react-scripts build",
     "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
-    "test:e2e": "cd ../frontend && npx cypress run"
+    "test:e2e": "cypress run"
   },
   "author": "Henri Mattila",
   "license": "ISC",
